@@ -3,6 +3,11 @@
   font-weight: 400;
   font-style: normal;
 }
+.handlee-regular {
+  font-family: "Handlee", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 body {
   background-image: url("images/sunset2.jpg");
@@ -26,4 +31,13 @@ ul {
   height: 280px;
   margin: auto;
   width: 180px;
+}
+
+.aboutMe {
+  float: left;
+  width: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 3px;
+  font-family: "Handlee", serif;
 }
