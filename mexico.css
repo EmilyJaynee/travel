@@ -13,13 +13,23 @@ body {
   background-image: url("images/sunset2.jpg");
   background-size: cover;
 }
-h1,
-h2 {
+h1 {
   font-family: Cedarville Cursive;
   font-size: 35px;
+  text-align: center;
 }
 ul {
   list-style-type: none;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+.grid img {
+  width: 50%;
+  border-radius: 15px;
+  margin: 20px auto auto auto;
 }
 .locations {
   float: right;
