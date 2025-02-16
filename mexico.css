@@ -24,12 +24,17 @@ ul {
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 5px;
+  grid-gap: 0px;
+  float: left;
+  width: 50%;
 }
 .grid img {
-  width: 50%;
-  border-radius: 15px;
-  margin: 20px auto auto auto;
+  border-radius: 100px;
+
+  height: 280px;
+  margin: auto;
+  width: 180px;
+  margin: 20px 5px 5px auto;
 }
 .locations {
   float: right;
