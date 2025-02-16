@@ -22,11 +22,12 @@ select {
   background-color: transparent;
   border: 0px;
   position: fixed;
-  top: 50px;
-  right: 60px;
+  top: 10px;
+  right: 10px;
 }
 .body {
-  width: 100%;
+  width: 50%;
+  margin: auto;
 }
 .locations {
   float: right;
@@ -46,5 +47,5 @@ select {
   height: 280px;
   margin: auto;
   width: 180px;
-  margin: 20px 5px 5px auto;
+  margin: 20px 5px 5px 20px;
 }
