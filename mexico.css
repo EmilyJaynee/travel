@@ -21,20 +21,22 @@ h1 {
 select {
   background-color: transparent;
   border: 0px;
-  position: fixed;
-  top: 10px;
-  right: 10px;
 }
 .body {
   width: 50%;
   margin: auto;
 }
 .locations {
-  float: right;
-
   font-size: 20px;
   font-weight: bold;
   font-family: "Handlee", serif;
+}
+.musicImage {
+  border-radius: 100px;
+  display: block;
+  height: 280px;
+  margin: auto;
+  width: 180px;
 }
 .grid {
   display: grid;
