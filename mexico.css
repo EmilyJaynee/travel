@@ -21,6 +21,9 @@ h1 {
 ul {
   list-style-type: none;
 }
+.body {
+  width: 80%;
+}
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
