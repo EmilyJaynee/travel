@@ -18,27 +18,13 @@ h1 {
   font-size: 35px;
   text-align: center;
 }
-ul {
-  list-style-type: none;
-  float: right;
+select {
+  position: fixed;
+  top: 10px;
+  right: 10px;
 }
 .body {
   width: 100%;
-}
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 0px;
-  float: left;
-  width: 50%;
-}
-.grid img {
-  border-radius: 100px;
-
-  height: 280px;
-  margin: auto;
-  width: 180px;
-  margin: 20px 5px 5px auto;
 }
 .locations {
   float: right;
@@ -46,4 +32,17 @@ ul {
   font-size: 20px;
   font-weight: bold;
   font-family: "Handlee", serif;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 0px;
+  width: 50%;
+}
+.grid img {
+  border-radius: 100px;
+  height: 280px;
+  margin: auto;
+  width: 180px;
+  margin: 20px 5px 5px auto;
 }
